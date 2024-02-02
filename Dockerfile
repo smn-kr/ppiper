@@ -1,5 +1,6 @@
 FROM ppiper/cf-cli:v17
 
+USER root
 RUN wget -q --show-progress https://github.com/SAP/jenkins-library/releases/latest/download/piper
 RUN mkdir -p /var/www/ppiper
 RUN chmod ppiper
