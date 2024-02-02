@@ -1,6 +1,6 @@
 # SAP Piper Container
-The container has installed the piper tool and the Cloud Foundry CLI.
-The container can be used to build complex pipelines for the BTP via the cli without the use of Jenkins.
+The container comes installed with the SAP Piper CLI and the Cloud Foundry CLI.
+The container can be used to build complex pipelines for the SAP BTP via the CLI without the need of Jenkins.
 
 For more dokumentation on the respective tools please have a look at the original projects:
 - [SAP Piper](https://www.project-piper.io/)
