@@ -6,5 +6,6 @@ RUN mkdir -p /var/www/ppiper
 RUN chmod +x ./piper
 RUN mv piper /var/www/ppiper
 
+USER piper
 ENV PATH="${PATH}:/var/www/ppiper"
 
