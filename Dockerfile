@@ -5,6 +5,7 @@ RUN wget -nv https://github.com/SAP/jenkins-library/releases/latest/download/pip
 RUN mkdir -p /var/www/ppiper
 RUN mv piper /var/www/ppiper
 RUN chmod 777 /var/www/ppiper/piper
+ENV PATH="${PATH}:/var/www/ppiper"
 
 USER piper
 ENV PATH="${PATH}:/var/www/ppiper"
