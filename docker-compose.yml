@@ -1,4 +1,0 @@
-services:
-  ppiper:
-    build: .
-    command: piper --help
